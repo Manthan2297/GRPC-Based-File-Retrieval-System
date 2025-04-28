@@ -30,7 +30,7 @@ The system demonstrates how gRPC and Protobuf can be used for:
 ```plaintext
 +---------+         +-------------------+         +--------+
 | Client  | <-----> |  gRPC Server      | <-----> | Index  |
-| CLI     |         |  (Java/Python)    |         | Store  |
+| CLI     |         |  (Java)           |         | Store  |
 +---------+         +-------------------+         +--------+
      |                      |                          |
  [Index, Search]      [gRPC Services]        [In-Memory or Persistent DB]
